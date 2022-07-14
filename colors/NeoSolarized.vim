@@ -206,7 +206,7 @@ endif
 
 " Alternate light scheme "{{{
 " ---------------------------------------------------------------------
-if &background == "light"
+" if &background == "light"
     " GUI
     let s:gui_temp03    =   s:gui_base03
     let s:gui_temp02    =   s:gui_base02
@@ -240,7 +240,7 @@ if &background == "light"
     if (s:term_back != "NONE")
         let s:term_back =   s:term_base03
     endif
-endif
+" endif
 "}}}
 
 " Optional contrast schemes "{{{
